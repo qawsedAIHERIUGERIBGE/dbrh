@@ -1,0 +1,332 @@
+﻿
+namespace турагенство_бдд
+{
+    partial class Form4
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.названиепансионатаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.адресDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.городDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.странаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.телефонDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.описаниетериторииDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.количествокомнатDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.наличиебасейнаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.наличиемедицинскихуслугDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.наличиеспасаланаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.уровеньпансионатаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.растояниедоморяDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.пансионатыBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataSet1 = new турагенство_бдд.DataSet1();
+            this.пансионатыTableAdapter = new турагенство_бдд.DataSet1TableAdapters.пансионатыTableAdapter();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.пансионатыBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.названиепансионатаDataGridViewTextBoxColumn,
+            this.адресDataGridViewTextBoxColumn,
+            this.городDataGridViewTextBoxColumn,
+            this.странаDataGridViewTextBoxColumn,
+            this.телефонDataGridViewTextBoxColumn,
+            this.описаниетериторииDataGridViewTextBoxColumn,
+            this.количествокомнатDataGridViewTextBoxColumn,
+            this.наличиебасейнаDataGridViewTextBoxColumn,
+            this.наличиемедицинскихуслугDataGridViewTextBoxColumn,
+            this.наличиеспасаланаDataGridViewTextBoxColumn,
+            this.уровеньпансионатаDataGridViewTextBoxColumn,
+            this.растояниедоморяDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.пансионатыBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(1, 59);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(796, 150);
+            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // названиепансионатаDataGridViewTextBoxColumn
+            // 
+            this.названиепансионатаDataGridViewTextBoxColumn.DataPropertyName = "названиепансионата";
+            this.названиепансионатаDataGridViewTextBoxColumn.HeaderText = "названиепансионата";
+            this.названиепансионатаDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.названиепансионатаDataGridViewTextBoxColumn.Name = "названиепансионатаDataGridViewTextBoxColumn";
+            this.названиепансионатаDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // адресDataGridViewTextBoxColumn
+            // 
+            this.адресDataGridViewTextBoxColumn.DataPropertyName = "адрес";
+            this.адресDataGridViewTextBoxColumn.HeaderText = "адрес";
+            this.адресDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.адресDataGridViewTextBoxColumn.Name = "адресDataGridViewTextBoxColumn";
+            this.адресDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // городDataGridViewTextBoxColumn
+            // 
+            this.городDataGridViewTextBoxColumn.DataPropertyName = "город";
+            this.городDataGridViewTextBoxColumn.HeaderText = "город";
+            this.городDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.городDataGridViewTextBoxColumn.Name = "городDataGridViewTextBoxColumn";
+            this.городDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // странаDataGridViewTextBoxColumn
+            // 
+            this.странаDataGridViewTextBoxColumn.DataPropertyName = "страна";
+            this.странаDataGridViewTextBoxColumn.HeaderText = "страна";
+            this.странаDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.странаDataGridViewTextBoxColumn.Name = "странаDataGridViewTextBoxColumn";
+            this.странаDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // телефонDataGridViewTextBoxColumn
+            // 
+            this.телефонDataGridViewTextBoxColumn.DataPropertyName = "телефон";
+            this.телефонDataGridViewTextBoxColumn.HeaderText = "телефон";
+            this.телефонDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.телефонDataGridViewTextBoxColumn.Name = "телефонDataGridViewTextBoxColumn";
+            this.телефонDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // описаниетериторииDataGridViewTextBoxColumn
+            // 
+            this.описаниетериторииDataGridViewTextBoxColumn.DataPropertyName = "описаниетеритории";
+            this.описаниетериторииDataGridViewTextBoxColumn.HeaderText = "описаниетеритории";
+            this.описаниетериторииDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.описаниетериторииDataGridViewTextBoxColumn.Name = "описаниетериторииDataGridViewTextBoxColumn";
+            this.описаниетериторииDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // количествокомнатDataGridViewTextBoxColumn
+            // 
+            this.количествокомнатDataGridViewTextBoxColumn.DataPropertyName = "количествокомнат";
+            this.количествокомнатDataGridViewTextBoxColumn.HeaderText = "количествокомнат";
+            this.количествокомнатDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.количествокомнатDataGridViewTextBoxColumn.Name = "количествокомнатDataGridViewTextBoxColumn";
+            this.количествокомнатDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // наличиебасейнаDataGridViewTextBoxColumn
+            // 
+            this.наличиебасейнаDataGridViewTextBoxColumn.DataPropertyName = "наличиебасейна";
+            this.наличиебасейнаDataGridViewTextBoxColumn.HeaderText = "наличиебасейна";
+            this.наличиебасейнаDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.наличиебасейнаDataGridViewTextBoxColumn.Name = "наличиебасейнаDataGridViewTextBoxColumn";
+            this.наличиебасейнаDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // наличиемедицинскихуслугDataGridViewTextBoxColumn
+            // 
+            this.наличиемедицинскихуслугDataGridViewTextBoxColumn.DataPropertyName = "наличиемедицинскихуслуг";
+            this.наличиемедицинскихуслугDataGridViewTextBoxColumn.HeaderText = "наличиемедицинскихуслуг";
+            this.наличиемедицинскихуслугDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.наличиемедицинскихуслугDataGridViewTextBoxColumn.Name = "наличиемедицинскихуслугDataGridViewTextBoxColumn";
+            this.наличиемедицинскихуслугDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // наличиеспасаланаDataGridViewTextBoxColumn
+            // 
+            this.наличиеспасаланаDataGridViewTextBoxColumn.DataPropertyName = "наличиеспасалана";
+            this.наличиеспасаланаDataGridViewTextBoxColumn.HeaderText = "наличиеспасалана";
+            this.наличиеспасаланаDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.наличиеспасаланаDataGridViewTextBoxColumn.Name = "наличиеспасаланаDataGridViewTextBoxColumn";
+            this.наличиеспасаланаDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // уровеньпансионатаDataGridViewTextBoxColumn
+            // 
+            this.уровеньпансионатаDataGridViewTextBoxColumn.DataPropertyName = "уровеньпансионата";
+            this.уровеньпансионатаDataGridViewTextBoxColumn.HeaderText = "уровеньпансионата";
+            this.уровеньпансионатаDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.уровеньпансионатаDataGridViewTextBoxColumn.Name = "уровеньпансионатаDataGridViewTextBoxColumn";
+            this.уровеньпансионатаDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // растояниедоморяDataGridViewTextBoxColumn
+            // 
+            this.растояниедоморяDataGridViewTextBoxColumn.DataPropertyName = "растояниедоморя";
+            this.растояниедоморяDataGridViewTextBoxColumn.HeaderText = "растояниедоморя";
+            this.растояниедоморяDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.растояниедоморяDataGridViewTextBoxColumn.Name = "растояниедоморяDataGridViewTextBoxColumn";
+            this.растояниедоморяDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // пансионатыBindingSource
+            // 
+            this.пансионатыBindingSource.DataMember = "пансионаты";
+            this.пансионатыBindingSource.DataSource = this.dataSet1;
+            // 
+            // dataSet1
+            // 
+            this.dataSet1.DataSetName = "DataSet1";
+            this.dataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // пансионатыTableAdapter
+            // 
+            this.пансионатыTableAdapter.ClearBeforeFill = true;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.button1.Location = new System.Drawing.Point(449, 246);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 32);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "добавить";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.button2.Location = new System.Drawing.Point(653, 246);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(89, 32);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "удалить";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.button3.Location = new System.Drawing.Point(670, 384);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(90, 32);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "назад";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(218, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 17);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "пансионаты";
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.button4.Location = new System.Drawing.Point(243, 246);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(90, 32);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "обновить";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.button5.Location = new System.Drawing.Point(23, 245);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(90, 33);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "изменить";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(65, 357);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "поиск";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(182, 357);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 8;
+            // 
+            // Form4
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightBlue;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.dataGridView1);
+            this.Name = "Form4";
+            this.Text = "пансионаты";
+            this.Load += new System.EventHandler(this.Form4_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.пансионатыBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private DataSet1 dataSet1;
+        private System.Windows.Forms.BindingSource пансионатыBindingSource;
+        private DataSet1TableAdapters.пансионатыTableAdapter пансионатыTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn названиепансионатаDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn адресDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn городDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn странаDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn телефонDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn описаниетериторииDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn количествокомнатDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn наличиебасейнаDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn наличиемедицинскихуслугDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn наличиеспасаланаDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn уровеньпансионатаDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn растояниедоморяDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+    }
+}
